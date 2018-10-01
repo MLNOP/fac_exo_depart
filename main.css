@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+.mainTitle{
+    display: block;
+    height: 10%;
+    background-color:#061339;
+    color: azure;
+}
+.pageTitle{
+    display: block;
+    height: 20%;
+    background-image: url("/fac_exo_depart/img/background.jpg");
+}
+p{
+    border-style: solid;
+    border-color: grey;
+    border-radius: 5px;
+}
