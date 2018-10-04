@@ -9,25 +9,39 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <header style="background-color:#cccccc">
+    <header>
         <h1>OhMyCats !</h1>
-        <nav>
-
-        </nav>
     </header>
-    <main style="background-color:#5900ff">
-        <section name="sectionGauche" style="background-color:#da2626">
-
+    <main>
+        <section class="sectionHaut">
+            <div class="Titre"><h2>Adoptez un chat trop beau !</h2></div>
         </section>
-        <section name="sectionDroite" style="background-color:#4de020">
-
+        <section class="sectionGauche" style="background-color:#5900ff">
+            <h3>Les chats à adopter</h3>
+            <div>
+                <h3>Choix du chat :</h3>
+                <select>
+                    <option selected>-- Sélectionnez --</option>
+                </select>
+                <h3>Raison d'adoption :</h3>
+                <textarea>
+                    Saisissez ici les raisons pour lesquelles vous souhaitez adopter ce chat...
+                </textarea>
+                <input type="submit" value="Envoyer"/>
+                
+        </div>
         </section>
-        <section name="sectionTexteBas">
-
+        <section class="sectionDroite" style="background-color:#4de020">
+           <div class="Carousel">
+               <img src="img/chat.jpg"/>
+           </div>
+        </section>
+        <section class="sectionBas">
+            
         </section>
     </main>
-    <footer style="background-color:#fa139a">
-
+    <footer>
+        <h4>© OhmyCats !</h4>
     </footer>
 </body>
 </html>

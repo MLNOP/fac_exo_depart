@@ -1,19 +1,42 @@
 body{
     margin: 0;
 }
-.mainTitle{
-    display: block;
-    height: 10%;
+main{
+    background-color:#5900ff;
+}
+header{
     background-color:#061339;
-    color: azure;
 }
-.pageTitle{
-    display: block;
-    height: 20%;
-    background-image: url("/fac_exo_depart/img/background.jpg");
+header h1{
+    margin: 0;
+    color: white;
 }
-p{
-    border-style: solid;
-    border-color: grey;
-    border-radius: 5px;
+footer{
+    background-color: chocolate;
+    bottom: 0;
+}
+footer h4{
+    margin: 0;
+}
+.Titre{
+    margin: 0;
+    height: 200px;
+    background-image: url("img/background.jpg");
+}
+.sectionDroite{
+    display: inline-block;
+}
+.sectionGauche{
+    display: inline-block;
+    border : 2px solid grey;
+    border-radius: 2px;
+}
+main section div h2{
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+main section div input{
+    color: white;
+    background-color: green;
 }
